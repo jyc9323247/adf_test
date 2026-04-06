@@ -9,6 +9,10 @@
 			"netwt2324": {
 				"type": "string",
 				"value": "adfdsdfdfs"
+			},
+			"ㅅㄷㅁ": {
+				"type": "string",
+				"value": "dadf"
 			}
 		}
 	},
