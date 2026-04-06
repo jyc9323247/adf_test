@@ -1,17 +1,5 @@
 {
 	"name": "new-met-adf",
-	"properties": {
-		"globalParameters": {
-			"testpram": {
-				"type": "string",
-				"value": "adfddfs"
-			},
-			"dafdd": {
-				"type": "string",
-				"value": "adfafd"
-			}
-		}
-	},
 	"location": "koreacentral",
 	"identity": {
 		"type": "SystemAssigned",
