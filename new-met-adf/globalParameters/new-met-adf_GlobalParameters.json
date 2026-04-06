@@ -2,13 +2,5 @@
 	"testparm": {
 		"type": "string",
 		"value": "adffadadf"
-	},
-	"dae": {
-		"type": "string",
-		"value": "dadfs"
-	},
-	"dteawte": {
-		"type": "string",
-		"value": "adfadfdfa"
 	}
 }

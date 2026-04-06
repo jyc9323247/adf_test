@@ -14,14 +14,6 @@
 		"default_properties_testparm_value": {
 			"type": "string",
 			"defaultValue": "adffadadf"
-		},
-		"default_properties_dae_value": {
-			"type": "string",
-			"defaultValue": "dadfs"
-		},
-		"default_properties_dteawte_value": {
-			"type": "string",
-			"defaultValue": "adfadfdfa"
 		}
 	},
 	"variables": {
@@ -104,14 +96,6 @@
 				"testparm": {
 					"type": "string",
 					"value": "[parameters('default_properties_testparm_value')]"
-				},
-				"dae": {
-					"type": "string",
-					"value": "[parameters('default_properties_dae_value')]"
-				},
-				"dteawte": {
-					"type": "string",
-					"value": "[parameters('default_properties_dteawte_value')]"
 				}
 			},
 			"dependsOn": []
