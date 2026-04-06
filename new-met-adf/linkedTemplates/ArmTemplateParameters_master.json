@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "new-met-adf"
 		},
+		"default_properties_parm_test_value": {
+			"value": "dafd"
+		},
 		"containerUri": {
 			"value": ""
 		},

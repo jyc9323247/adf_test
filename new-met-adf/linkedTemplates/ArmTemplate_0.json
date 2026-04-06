@@ -6,6 +6,10 @@
 			"type": "string",
 			"metadata": "Data Factory 이름",
 			"defaultValue": "new-met-adf"
+		},
+		"default_properties_parm_test_value": {
+			"type": "string",
+			"defaultValue": "dafd"
 		}
 	},
 	"variables": {
@@ -16,7 +20,12 @@
 			"name": "[concat(parameters('factoryName'), '/default')]",
 			"type": "Microsoft.DataFactory/factories/globalparameters",
 			"apiVersion": "2018-06-01",
-			"properties": {},
+			"properties": {
+				"parm_test": {
+					"type": "string",
+					"value": "[parameters('default_properties_parm_test_value')]"
+				}
+			},
 			"dependsOn": []
 		},
 		{

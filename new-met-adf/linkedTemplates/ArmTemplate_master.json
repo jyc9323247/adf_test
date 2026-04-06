@@ -7,6 +7,10 @@
 			"metadata": "Data Factory 이름",
 			"defaultValue": "new-met-adf"
 		},
+		"default_properties_parm_test_value": {
+			"type": "string",
+			"defaultValue": "dafd"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "스토리지 계정 연결 된 ARM 서식 파일을 포함 하는 URI입니다."
@@ -33,6 +37,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"default_properties_parm_test_value": {
+						"value": "[parameters('default_properties_parm_test_value')]"
 					}
 				}
 			},
