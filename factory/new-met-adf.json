@@ -1,5 +1,13 @@
 {
 	"name": "new-met-adf",
+	"properties": {
+		"globalParameters": {
+			"testparm": {
+				"type": "string",
+				"value": "adffadadf"
+			}
+		}
+	},
 	"location": "koreacentral",
 	"identity": {
 		"type": "SystemAssigned",
