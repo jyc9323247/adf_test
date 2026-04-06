@@ -15,6 +15,10 @@
 			"type": "string",
 			"defaultValue": "adffadadf"
 		},
+		"default_properties_netwt2324_value": {
+			"type": "string",
+			"defaultValue": "adfdsdfdfs"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "스토리지 계정 연결 된 ARM 서식 파일을 포함 하는 URI입니다."
@@ -47,6 +51,9 @@
 					},
 					"default_properties_testparm_value": {
 						"value": "[parameters('default_properties_testparm_value')]"
+					},
+					"default_properties_netwt2324_value": {
+						"value": "[parameters('default_properties_netwt2324_value')]"
 					}
 				}
 			},

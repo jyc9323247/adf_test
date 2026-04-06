@@ -2,5 +2,9 @@
 	"testparm": {
 		"type": "string",
 		"value": "adffadadf"
+	},
+	"netwt2324": {
+		"type": "string",
+		"value": "adfdsdfdfs"
 	}
 }

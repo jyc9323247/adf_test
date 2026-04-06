@@ -14,6 +14,10 @@
 		"default_properties_testparm_value": {
 			"type": "string",
 			"defaultValue": "adffadadf"
+		},
+		"default_properties_netwt2324_value": {
+			"type": "string",
+			"defaultValue": "adfdsdfdfs"
 		}
 	},
 	"variables": {
@@ -96,6 +100,10 @@
 				"testparm": {
 					"type": "string",
 					"value": "[parameters('default_properties_testparm_value')]"
+				},
+				"netwt2324": {
+					"type": "string",
+					"value": "[parameters('default_properties_netwt2324_value')]"
 				}
 			},
 			"dependsOn": []
