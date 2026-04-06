@@ -1,1 +1,6 @@
-{}
+{
+	"testpram": {
+		"type": "string",
+		"value": "adfddfs"
+	}
+}

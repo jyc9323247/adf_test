@@ -7,6 +7,12 @@
 		},
 		"default_properties_testpram_value": {
 			"value": "adfddfs"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
 		}
 	}
 }
